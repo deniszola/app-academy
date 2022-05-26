@@ -1,0 +1,176 @@
+/* global */
+body {
+  padding: 85px 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* form */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* form description */
+legend {
+  border: 1px solid #000;
+  text-transform: lowercase;
+  font-size: large;
+  padding: 2px 22px 2px 5px;
+  margin-left: 85px;
+}
+
+/* contact inputs */
+.box {
+  width: 204px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: large;
+}
+
+.negative-margin {
+  margin-top: -6px;
+}
+
+.positive-margin {
+  margin-top: 5px;
+}
+
+.box > input {
+  margin-top: -1px;
+  padding: 3px 0;
+}
+
+/* status and date */
+.status {
+  width: 204px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.status > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: large;
+  padding-top: 5px;
+}
+
+.status > div > input {
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 2.5px;
+  margin-left: 3px;
+}
+
+.status > div > select {
+  margin-right: 3px;
+}
+
+.status > div > select,
+.status > div > input {
+  padding: 3px 0;
+}
+
+/* language */
+.language {
+  width: 204px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.language > p {
+  font-size: smaller;
+  margin: 0.5rem auto;
+  letter-spacing: 0.02rem;
+}
+
+.language > div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: -2.5px;
+}
+
+.language > div > input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #999;
+  margin: 0;
+  transition: 0.2s all linear;
+}
+
+.language > div > input:checked {
+  border: 6px solid black;
+}
+
+.language > div > label {
+  margin-left: -8px;
+  letter-spacing: 0.1rem;
+}
+
+/* comments */
+.comments {
+  width: 204px;
+  margin: 8px auto;
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+}
+
+.comments > label {
+  padding-left: 10px;
+}
+
+.comments > textarea {
+  resize: none;
+}
+
+/* optional */
+.optional {
+  width: 204px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: smaller;
+}
+
+.optional > input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 2.5px;
+  width: 25px;
+  height: 20px;
+  border: 1px solid #999;
+  transition: 0.2s all linear;
+  margin-left: 10px;
+}
+
+.optional > input:checked {
+  border: 6px solid black;
+}
+
+/* button */
+.button {
+  width: 204px;
+  margin: 0 auto 15px;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.button > button {
+  width: 110px;
+  font-size: large;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 2.5px;
+  border: 1px solid #999;
+}
