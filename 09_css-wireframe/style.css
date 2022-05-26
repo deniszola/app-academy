@@ -1,0 +1,165 @@
+/* global */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 796px;
+  margin: 0 auto;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+header > button {
+  border: 2px solid black;
+  padding: 6px 28px;
+  font-size: 1.2rem;
+}
+
+/* nav */
+nav {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+nav > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.3rem;
+  display: block;
+  padding: 8px;
+}
+
+/* main */
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 18px 0;
+}
+
+/* title */
+h1 {
+  border: 2px solid black;
+  padding: 10px 10px 22px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  word-spacing: 1px;
+  margin: 0;
+}
+
+/* share */
+.share {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.share > div {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+}
+
+.share > div > button {
+  border: 2px solid black;
+  padding: 1px 12px;
+  margin-left: 8px;
+  font-size: 1.2rem;
+}
+
+/* image */
+main > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid black;
+}
+
+/* description list */
+dl {
+  font-size: 1.2rem;
+  margin: 1px 0;
+}
+
+/* more info */
+.info {
+  border: 1px solid black;
+  padding-bottom: 18px;
+}
+
+.info p,
+.info h2 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.info > h2 {
+  margin: 8px 28px 0;
+  font-weight: normal;
+}
+
+.info > div {
+  display: flex;
+}
+
+.info > div p {
+  margin: 0;
+}
+
+.info ul {
+  list-style: "- " inside;
+  margin: 0;
+  padding: 0 12px;
+}
+
+.info li {
+  margin-bottom: 4px;
+}
+
+.info a {
+  text-decoration: none;
+  letter-spacing: 0.9px;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+footer > ul {
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  margin: 0;
+}
+
+footer > ul a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 8px 10px;
+}
