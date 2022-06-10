@@ -12,5 +12,6 @@
     "unstyled",
     "whackable",
     "whacker"
-  ]
+  ],
+  "files.autoSave": "off"
 }
