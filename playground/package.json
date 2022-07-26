@@ -1,0 +1,22 @@
+{
+  "name": "00_playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --watch",
+    "watch": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "js-sha256": "^0.9.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  }
+}
